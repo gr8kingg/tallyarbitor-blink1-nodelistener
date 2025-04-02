@@ -1,0 +1,25 @@
+{
+  "name": "tallyarbitor-blink1-nodelistener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr8kingg/tallyarbitor-blink1-nodelistener.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr8kingg/tallyarbitor-blink1-nodelistener/issues"
+  },
+  "homepage": "https://github.com/gr8kingg/tallyarbitor-blink1-nodelistener#readme",
+  "dependencies": {
+    "command-line-args": "^6.0.1",
+    "node-blink1": "^0.5.1",
+    "socket.io-client": "^4.8.1",
+    "winston": "^3.17.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "console": "internalConsole",
+      "outputCapture": "std",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/index.js",
+      "args": [
+        "--deviceid",
+        "cb681f90",
+        "--clientid",
+        "5d9aca2a-2e73-495b-964b-6be464dfdb49"
+      ]
+    }
+  ]
+}

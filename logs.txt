@@ -1,0 +1,107 @@
+{"level":"info","message":"starting with options %s","service":"user-service"}
+{"level":"info","message":"starting with options %s","service":"user-service"}
+{"level":"info","message":"starting with options %s","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"context":{"DONE":4,"HEADERS_RECEIVED":2,"LOADING":3,"OPENED":1,"UNSENT":0,"readyState":4,"response":{"data":[],"type":"Buffer"},"responseText":"Error: write EPROTO C0792359F87F0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)\n    at WriteWrap.callbackTrampoline (node:internal/async_hooks:128:17)","responseXML":"","status":0,"statusText":{"code":"EPROTO","errno":-100,"syscall":"write"}},"description":0,"level":"error","message":"connect_error xhr poll error","service":"user-service","stack":"Error: xhr poll error\n    at XHR.onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transport.js:48:37)\n    at Request.<anonymous> (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:64:18)\n    at Emitter.emit (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/@socket.io/component-emitter/lib/cjs/index.js:143:20)\n    at Request._onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:173:14)\n    at Timeout._onTimeout (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:146:30)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)","type":"TransportError"}
+{"context":{"DONE":4,"HEADERS_RECEIVED":2,"LOADING":3,"OPENED":1,"UNSENT":0,"readyState":4,"response":{"data":[],"type":"Buffer"},"responseText":"Error: write EPROTO C0792359F87F0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)\n    at WriteWrap.callbackTrampoline (node:internal/async_hooks:128:17)","responseXML":"","status":0,"statusText":{"code":"EPROTO","errno":-100,"syscall":"write"}},"description":0,"level":"error","message":"connect_error xhr poll error","service":"user-service","stack":"Error: xhr poll error\n    at XHR.onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transport.js:48:37)\n    at Request.<anonymous> (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:64:18)\n    at Emitter.emit (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/@socket.io/component-emitter/lib/cjs/index.js:143:20)\n    at Request._onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:173:14)\n    at Timeout._onTimeout (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:146:30)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)","type":"TransportError"}
+{"context":{"DONE":4,"HEADERS_RECEIVED":2,"LOADING":3,"OPENED":1,"UNSENT":0,"readyState":4,"response":{"data":[],"type":"Buffer"},"responseText":"Error: write EPROTO C0792359F87F0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)\n    at WriteWrap.callbackTrampoline (node:internal/async_hooks:128:17)","responseXML":"","status":0,"statusText":{"code":"EPROTO","errno":-100,"syscall":"write"}},"description":0,"level":"error","message":"connect_error xhr poll error","service":"user-service","stack":"Error: xhr poll error\n    at XHR.onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transport.js:48:37)\n    at Request.<anonymous> (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:64:18)\n    at Emitter.emit (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/@socket.io/component-emitter/lib/cjs/index.js:143:20)\n    at Request._onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:173:14)\n    at Timeout._onTimeout (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:146:30)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)","type":"TransportError"}
+{"context":{"DONE":4,"HEADERS_RECEIVED":2,"LOADING":3,"OPENED":1,"UNSENT":0,"readyState":4,"response":{"data":[],"type":"Buffer"},"responseText":"Error: write EPROTO C0792359F87F0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)\n    at WriteWrap.callbackTrampoline (node:internal/async_hooks:128:17)","responseXML":"","status":0,"statusText":{"code":"EPROTO","errno":-100,"syscall":"write"}},"description":0,"level":"error","message":"connect_error xhr poll error","service":"user-service","stack":"Error: xhr poll error\n    at XHR.onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transport.js:48:37)\n    at Request.<anonymous> (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:64:18)\n    at Emitter.emit (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/@socket.io/component-emitter/lib/cjs/index.js:143:20)\n    at Request._onError (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:173:14)\n    at Timeout._onTimeout (/Users/barex/git/tallyarbitor-blink1-nodelistener/node_modules/engine.io-client/build/cjs/transports/polling-xhr.js:146:30)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)","type":"TransportError"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"level":"info","message":"current color %s","service":"user-service"}
+{"level":"info","message":"current color %s","service":"user-service"}
+{"level":"info","message":"current color %s","service":"user-service"}
+{"level":"info","message":"current color %s","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455,"service":"user-service"}
+{"level":"info","message":"connected","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"level":"info","message":"current color","service":"user-service"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"level":"info","message":"flash"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"level":"info","message":"current color"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current color","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current color","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current color","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current color","priority":100,"type":"aux"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current color","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current color","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current color","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current color","priority":100,"type":"aux"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"blink devices"}
+{"level":"info","message":"connected"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current state","priority":50,"type":"preview"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current state","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current state","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current state","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current state","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current state","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current state","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#3fe481","id":"e393251c","label":"Preview","level":"info","message":"current state","priority":50,"type":"preview"}
+{"color":"#e43f5a","id":"334e4eda","label":"Program","level":"info","message":"current state","priority":200,"type":"program"}
+{"color":"#0000FF","id":"12c8d699","label":"Aux 1","level":"info","message":"current state","priority":100,"type":"aux"}
+{"color":"#0000FF","id":"12c8d689","label":"Aux 2","level":"info","message":"current state","priority":100,"type":"aux"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"connected"}
+{"clientid":"5d9aca2a-2e73-495b-964b-6be464dfdb49","deviceid":"cb681f90","host":"localhost","level":"info","message":"starting with options","port":4455}
+{"level":"info","message":"blink devices"}
+{"level":"info","message":"connected"}
