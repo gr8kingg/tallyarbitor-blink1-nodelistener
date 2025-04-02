@@ -16,7 +16,7 @@ const logger = winston.createLogger({
 
     new winston.transports.File({
       filename: "logs.txt",
-      maxsize: 1000000,
+      maxsize: 100000,
       maxFiles: 3,
     }),
   ],
@@ -36,6 +36,8 @@ logger.info("starting with options", options);
 logger.info("blink devices", Blink1.devices());
 
 const socket = io("http://" + options.host + ":" + options.port);
+
+var blink1 = new Blink1();
 
 socket.on("connect", () => {
   logger.info("connected");
@@ -67,8 +69,14 @@ socket.on("error", (error) => {
 
 socket.on("flash", () => {
   logger.info("flash");
-  //blink1.blink();
+  flash();
 });
+
+const flash = () => {
+  blink1.writePatternLine(200, 255, 255, 255, 0);
+  blink1.writePatternLine(200, 0, 0, 0, 1);
+  blink1.play(0);
+};
 
 let bussOptions = [];
 socket.on("bus_options", (data) => {
@@ -78,6 +86,15 @@ socket.on("bus_options", (data) => {
 socket.on("device_states", (data) => {
   processDeviceState(data);
 });
+
+const hex2rgb = (hex) => {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+
+  // return {r, g, b}
+  return { r, g, b };
+};
 
 const processDeviceState = (data) => {
   const bussesList = [];
@@ -92,13 +109,16 @@ const processDeviceState = (data) => {
     // do nothing
     // turn off led
     // blink1.stop();
+    blink1.off();
   } else {
     bussesList.sort((a, b) => a.priority - b.priority);
 
     const currentColor = bussesList[0].color;
     logger.info("current state", bussesList[0]);
-    console.log("current color", currentColor);
+
+    const colorRGB = hex2rgb(currentColor);
     // set blink to color
+    blink1.setRGB(colorRGB.r, colorRGB.g, colorRGB.b);
     // color: '#0000FF',
     // blink1.setRGB(currentColor.r, currentColor.g, currentColor.b);
   }
