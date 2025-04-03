@@ -101,7 +101,7 @@ const processDeviceState = (data) => {
 
   for (const deviceState of data) {
     const currentBus = bussOptions.find((bus) => bus.id === deviceState.busId);
-    if (deviceState.sources.length > 0) {
+    if (currentBus && deviceState.sources.length > 0) {
       bussesList.push(currentBus);
     }
   }
