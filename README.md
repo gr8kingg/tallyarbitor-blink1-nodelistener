@@ -7,8 +7,9 @@ format raspberry pi with the 'lite' version
 install nodejs
 
 ```
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
-sudo apt-get install -y nodejs
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install nodejs npm libudev-dev libusb-1.0-0-dev libhidapi-dev
 ```
 
 Download this file
@@ -34,19 +35,11 @@ sudo node index.js -h 192.168.12.29 -p 4455 --deviceid cb681f90 --clientid 5d9ac
 run at startup
 
 ```
-sudo nano /etc/rc.local
+sudo crontab -e
 ```
 
 add the lines
 
 ```
-#!/bin/bash
-sudo node /home/pi/tallyarbitor-blink1-nodelistener-main/index.js -h 192.168.12.29 -p 4455 --deviceid cb681f90 --clientid 5d9aca2a-2e73-495b-964b-6be464dfdb49 &
-exit 0
-```
-
-now set the file to execute
-
-```
-sudo chmod +x /etc/rc.local
+@reboot node /home/pi/tallyarbitor-blink1-nodelistener-main/index.js -h 192.168.12.29 -p 4455 --deviceid cb681f90 --clientid 5d9aca2a-2e73-495b-964b-6be464dfdb49
 ```

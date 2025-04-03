@@ -56,7 +56,7 @@ socket.on("connect_error", (error) => {
 });
 
 socket.on("disconnect", (reason) => {
-  logger.info("disconnected with reason %s", reason);
+  logger.info("disconnected with reason", reason);
   if (reason === "io server disconnect") {
     // the disconnection was initiated by the server, you need to reconnect manually
     socket.connect();
